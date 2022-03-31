@@ -1,0 +1,15 @@
+package Logic;
+
+import Sockets.Server;
+import java.io.IOException;
+
+public class AdministrationServer {
+
+    public static void main(String[] args) throws IOException{
+        
+        Server server = new Server();
+        System.out.println("Iniciando el servidor... \n");
+        server.startServer();
+    }
+    
+}
